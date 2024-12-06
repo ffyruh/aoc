@@ -35,7 +35,7 @@ for line in lines2:
         p1 += line[len(line)//2]
     else: # p2 buildup
         p2list.append(line)
-print(p1)
+print(p1) # 4637
 
 p2 = 0
 for line in p2list:
@@ -50,4 +50,4 @@ for line in p2list:
             l.append(line[i])
             line = line[:i]+l+r
     p2 += line[len(line)//2]
-print(p2)
+print(p2) # 6370
